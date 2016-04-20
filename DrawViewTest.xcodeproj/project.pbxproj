@@ -15,6 +15,12 @@
 		792B6A821CC5C4F20020D093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792B6A801CC5C4F20020D093 /* LaunchScreen.storyboard */; };
 		792B6A8D1CC5C4F30020D093 /* DrawViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6A8C1CC5C4F30020D093 /* DrawViewTestTests.m */; };
 		792B6A981CC5C4F30020D093 /* DrawViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6A971CC5C4F30020D093 /* DrawViewTestUITests.m */; };
+		792B6AA71CC5C5230020D093 /* WYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6AA61CC5C5230020D093 /* WYImageView.m */; };
+		792B6AEF1CC5F6870020D093 /* CrossLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6AEE1CC5F6870020D093 /* CrossLineView.m */; };
+		792B6AF21CC5FCEA0020D093 /* BorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6AF11CC5FCEA0020D093 /* BorderView.m */; };
+		792B6AFB1CC6138B0020D093 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6AFA1CC6138B0020D093 /* ArcView.m */; };
+		792B6AFE1CC617000020D093 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6AFD1CC617000020D093 /* CircleView.m */; };
+		792B6B011CC624350020D093 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792B6B001CC624350020D093 /* TriangleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		792B6A931CC5C4F30020D093 /* DrawViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792B6A971CC5C4F30020D093 /* DrawViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewTestUITests.m; sourceTree = "<group>"; };
 		792B6A991CC5C4F30020D093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792B6AA51CC5C5230020D093 /* WYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYImageView.h; sourceTree = "<group>"; };
+		792B6AA61CC5C5230020D093 /* WYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYImageView.m; sourceTree = "<group>"; };
+		792B6AED1CC5F6870020D093 /* CrossLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrossLineView.h; sourceTree = "<group>"; };
+		792B6AEE1CC5F6870020D093 /* CrossLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossLineView.m; sourceTree = "<group>"; };
+		792B6AF01CC5FCEA0020D093 /* BorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderView.h; sourceTree = "<group>"; };
+		792B6AF11CC5FCEA0020D093 /* BorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderView.m; sourceTree = "<group>"; };
+		792B6AF91CC6138A0020D093 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		792B6AFA1CC6138B0020D093 /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		792B6AFC1CC617000020D093 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		792B6AFD1CC617000020D093 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		792B6AFF1CC624350020D093 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		792B6B001CC624350020D093 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,8 @@
 		792B6A711CC5C4F20020D093 /* DrawViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				792B6AF91CC6138A0020D093 /* ArcView.h */,
+				792B6AFA1CC6138B0020D093 /* ArcView.m */,
 				792B6A751CC5C4F20020D093 /* AppDelegate.h */,
 				792B6A761CC5C4F20020D093 /* AppDelegate.m */,
 				792B6A781CC5C4F20020D093 /* ViewController.h */,
@@ -110,6 +130,16 @@
 				792B6A801CC5C4F20020D093 /* LaunchScreen.storyboard */,
 				792B6A831CC5C4F20020D093 /* Info.plist */,
 				792B6A721CC5C4F20020D093 /* Supporting Files */,
+				792B6AA51CC5C5230020D093 /* WYImageView.h */,
+				792B6AA61CC5C5230020D093 /* WYImageView.m */,
+				792B6AED1CC5F6870020D093 /* CrossLineView.h */,
+				792B6AEE1CC5F6870020D093 /* CrossLineView.m */,
+				792B6AF01CC5FCEA0020D093 /* BorderView.h */,
+				792B6AF11CC5FCEA0020D093 /* BorderView.m */,
+				792B6AFC1CC617000020D093 /* CircleView.h */,
+				792B6AFD1CC617000020D093 /* CircleView.m */,
+				792B6AFF1CC624350020D093 /* TriangleView.h */,
+				792B6B001CC624350020D093 /* TriangleView.m */,
 			);
 			path = DrawViewTest;
 			sourceTree = "<group>";
@@ -271,7 +301,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				792B6A7A1CC5C4F20020D093 /* ViewController.m in Sources */,
+				792B6AEF1CC5F6870020D093 /* CrossLineView.m in Sources */,
 				792B6A771CC5C4F20020D093 /* AppDelegate.m in Sources */,
+				792B6AFB1CC6138B0020D093 /* ArcView.m in Sources */,
+				792B6AFE1CC617000020D093 /* CircleView.m in Sources */,
+				792B6B011CC624350020D093 /* TriangleView.m in Sources */,
+				792B6AA71CC5C5230020D093 /* WYImageView.m in Sources */,
+				792B6AF21CC5FCEA0020D093 /* BorderView.m in Sources */,
 				792B6A741CC5C4F20020D093 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
